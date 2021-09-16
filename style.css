@@ -70,6 +70,7 @@ footer {
   padding: 1rem;
   bottom: 0;
   background-color: var(--blue);
+  font-size: larger;
 }
 
 .footer-container {
