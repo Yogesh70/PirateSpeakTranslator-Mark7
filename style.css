@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+:root {
+  --blue: #2563eb;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue);
+}
+
+.title {
+  text-align: center;
+  padding: 1.4rem;
+  font-size: 2rem;
+}
+
+#translate-area {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-size: larger;
+}
+
+.translate-btn {
+  padding: 1rem;
+  margin: 1rem 0rem;
+  min-width: fit-content;
+  border: none;
+  background-color: var(--blue);
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+#translated-area {
+  display: block;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  font-size: larger;
+}
+
+.mid-container {
+  margin: auto;
+  padding: 2rem;
+  max-width: 600px;
+}
+
+.mid-container div {
+  margin-bottom: 0.4rem;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  bottom: 0;
+  background-color: var(--blue);
+  font-size: 1.1rem;
+}
+
+.footer-container {
+  margin: auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+footer p {
+  margin: auto;
+  max-width: 600px;
+}
